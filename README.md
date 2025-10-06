@@ -41,10 +41,9 @@ flowchart TD
   F -- Duyệt --> G[Thông báo cho người dùng: Hẹn thời gian]
   F -- Từ chối --> H[Thông báo cho người dùng: Đã bị từ chối]
   G --> I[Người dùng lấy sách -> Trạng thái: Đã mượn]
-  I --> J[Trả sách đúng hạn]
-  J --> K[Nhân viên: Cập nhật -> Trạng thái: Đã trả]
   I --> L{Quá hạn?}
-  L -- Đúng --> M[Gửi thông báo/ tính phí]
+  L -- Không --> K[Nhân viên: Cập nhật -> Trạng thái: Đã trả]
+  L -- Có --> M[Gửi thông báo/ tính phí]
 ```
 - <b> Wireframes: </b> Thiết kế giao diện mẫu cho cổng người dùng và nhân viên.
 ![UI](https://github.com/lthnhuw/Library-Borrowing-Management-System/blob/main/trangchu.png)  
