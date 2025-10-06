@@ -27,7 +27,7 @@
 ## 4. Kỹ Thuật Phân Tích Nghiệp Vụ  
 - <B> Biểu đồ Use Case: </B> Mô hình hóa các tương tác giữa nhân viên và độc giả.
 ![Use Case Diagram](https://github.com/lthnhuw/Library-Borrowing-Management-System/blob/main/usecasetq.png)
-- <B> Biểu đồ lớp (Class Diagram):</B> Xác định các thực thể dữ liệu: Readers, Staff, Books, Publishers, Borrowing Records.
+- <B> Biểu đồ lớp (Class Diagram):</B> Xác định các thực thể dữ liệu: Độc giả, Nhân viên, Sách, Nhà xuất bản, Theo dõi mượn sách.
   ![Class Diagram](https://github.com/lthnhuw/Library-Borrowing-Management-System/blob/main/sodolop.png)
 - <b> Luồng xử lí (Process Flow): </b> - <b> Process Flow: </b> Mô tả quy trình mượn và trả sách.
 ```mermaid
