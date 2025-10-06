@@ -30,7 +30,8 @@
 - <B> Biểu đồ lớp (Class Diagram):</B> Xác định các thực thể dữ liệu: Readers, Staff, Books, Publishers, Borrowing Records.
   ![Class Diagram](https://github.com/lthnhuw/Library-Borrowing-Management-System/blob/main/sodolop.png)
 - <b> Luồng xử lí (Process Flow): </b> - <b> Process Flow: </b> Mô tả quy trình mượn và trả sách.
-```flowchart TD
+```mermaid
+flowchart TD
   %% Bắt đầu quy trình
   Start([Bắt đầu]) --> A[Người dùng: Tìm kiếm sách]
 
