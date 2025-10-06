@@ -37,7 +37,7 @@ flowchart TD
   C --> D[Xem chi tiết sách]
   B -- Có --> D
   D --> E[Gửi yêu cầu mượn sách]
-  E --> F[Nhân viên: Xem xét yêu cầu]
+  E --> F{Nhân viên: Xem xét yêu cầu}
   F -- Duyệt --> G[Thông báo cho người dùng: Hẹn thời gian]
   F -- Từ chối --> H[Thông báo cho người dùng: Đã bị từ chối]
   G --> I[Người dùng lấy sách -> Trạng thái: Đã mượn]
