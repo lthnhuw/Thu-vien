@@ -1,7 +1,7 @@
 # Hệ Thống Quản Lý Mượn Trả Sách Thư Viện (Library Borrowing Management System)
 <b> Đường dẫn dự án: </b> [Code](https://github.com/lthnhuw/B2106803_LeThiHuynhNhu_project)
 ## 1. Tổng Quan Dự Án   
-- <B> Mục tiêu: </B> Automate and streamline the library book borrowing and returning process to improve efficiency and user experience.
+- <B> Mục tiêu: </B> Tự động hóa và tối ưu hóa quy trình mượn – trả sách nhằm nâng cao hiệu quả hoạt động và trải nghiệm người dùng.
 - <B> Vấn đề: </B> Quản lý thủ công gây ra tình trạng chậm trễ, thiếu minh bạch, và khó khăn trong việc tra cứu hoặc theo dõi sách quá hạn.
 - <B> Các bên liên quan: </B> Nhân viên thư viện (quản trị viên) và bạn đọc (người dùng).
 
@@ -25,7 +25,7 @@
 - Khả năng mở rộng khi dữ liệu tăng lên.
 
 ## 4. Kỹ Thuật Phân Tích Nghiệp Vụ  
-- <B> Biểu đồ Use Case: </B> Mô hình hóa các tương tác giữa nhân viên và bạn đọc.
+- <B> Biểu đồ Use Case: </B> Mô hình hóa các tương tác giữa nhân viên và độc giả.
 ![Use Case Diagram](https://github.com/lthnhuw/Library-Borrowing-Management-System/blob/main/usecasetq.png)
 - <B> Biểu đồ lớp (Class Diagram):</B> Xác định các thực thể dữ liệu: Readers, Staff, Books, Publishers, Borrowing Records.
   ![Class Diagram](https://github.com/lthnhuw/Library-Borrowing-Management-System/blob/main/sodolop.png)
@@ -33,7 +33,7 @@
 ```mermaid
 flowchart TD
   A[Người dùng: Tìm kiếm sách] --> B{Đăng nhập?}
-  B -- Chưa --> C[Đăng nhập / Đăng ký]
+  B -- Không --> C[Đăng nhập / Đăng ký]
   C --> D[Xem chi tiết sách]
   B -- Có --> D
   D --> E[Gửi yêu cầu mượn sách]
