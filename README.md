@@ -1,5 +1,5 @@
 # Hệ Thống Quản Lý Mượn Trả Sách Thư Viện (Library Borrowing Management System)
-<b> Link project: </b> [Code](https://github.com/lthnhuw/B2106803_LeThiHuynhNhu_project)
+<b> Đường dẫn dự án: </b> [Code](https://github.com/lthnhuw/B2106803_LeThiHuynhNhu_project)
 ## 1. Tổng Quan Dự Án   
 - <B> Mục tiêu: </B> Automate and streamline the library book borrowing and returning process to improve efficiency and user experience.
 - <B> Vấn đề: </B> Quản lý thủ công gây ra tình trạng chậm trễ, thiếu minh bạch, và khó khăn trong việc tra cứu hoặc theo dõi sách quá hạn.
