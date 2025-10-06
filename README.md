@@ -30,20 +30,41 @@
 - <B> Biểu đồ lớp (Class Diagram):</B> Xác định các thực thể dữ liệu: Readers, Staff, Books, Publishers, Borrowing Records.
   ![Class Diagram](https://github.com/lthnhuw/Library-Borrowing-Management-System/blob/main/sodolop.png)
 - <b> Luồng xử lí (Process Flow): </b> - <b> Process Flow: </b> Mô tả quy trình mượn và trả sách.
-```mermaid
-flowchart TD
-  A[Người dùng: Tìm kiếm sách] --> B{Đăng nhập?}
+```flowchart TD
+  %% Bắt đầu quy trình
+  Start([Bắt đầu]) --> A[Người dùng: Tìm kiếm sách]
+
+  %% Kiểm tra đăng nhập
+  A --> B{Đăng nhập?}
   B -- Không --> C[Đăng nhập / Đăng ký]
   C --> D[Xem chi tiết sách]
   B -- Có --> D
+
+  %% Gửi yêu cầu mượn
   D --> E[Gửi yêu cầu mượn sách]
+
+  %% Nhân viên xem xét yêu cầu
   E --> F{Nhân viên: Xem xét yêu cầu}
   F -- Duyệt --> G[Thông báo cho người dùng: Hẹn thời gian]
   F -- Từ chối --> H[Thông báo cho người dùng: Đã bị từ chối]
+
+  %% Người dùng lấy sách
   G --> I[Người dùng lấy sách -> Trạng thái: Đã mượn]
+
+  %% Kiểm tra quá hạn
   I --> L{Quá hạn?}
   L -- Không --> K[Nhân viên: Cập nhật -> Trạng thái: Đã trả]
-  L -- Có --> M[Gửi thông báo/ tính phí]
+  L -- Có --> M[Gửi thông báo / tính phí]
+
+  %% Sau khi tính phí
+  M --> N[Người dùng thanh toán phí]
+  N --> O[Nhân viên: Cập nhật -> Trạng thái: Đã trả]
+
+  %% Kết thúc quy trình
+  K --> End([Kết thúc])
+  O --> End
+  H --> End
+
 ```
 - <b> Wireframes: </b> Thiết kế giao diện mẫu cho cổng người dùng và nhân viên.
 ![UI](https://github.com/lthnhuw/Library-Borrowing-Management-System/blob/main/trangchu.png)  
