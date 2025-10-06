@@ -3,17 +3,17 @@
 ## 1. Tổng Quan Dự Án   
 - <B> Mục tiêu: </B> Tự động hóa và tối ưu hóa quy trình mượn – trả sách nhằm nâng cao hiệu quả hoạt động và trải nghiệm người dùng.
 - <B> Vấn đề: </B> Quản lý thủ công gây ra tình trạng chậm trễ, thiếu minh bạch, và khó khăn trong việc tra cứu hoặc theo dõi sách quá hạn.
-- <B> Các bên liên quan: </B> Nhân viên thư viện (quản trị viên) và bạn đọc (người dùng).
+- <B> Các bên liên quan: </B> Nhân viên thư viện (quản trị viên) và độc giả (người dùng).
 
 ## 2. Nhu Cầu và Mục Tiêu Kinh Doanh 
-- Cung cấp nền tảng tập trung giúp bạn đọc tra cứu, mượn và theo dõi tình trạng sách.
+- Cung cấp nền tảng tập trung giúp độc giả tra cứu, mượn và theo dõi tình trạng sách.
 - Cho phép nhân viên thư viện quản lý sách, nhà xuất bản và hoạt động mượn – trả một cách hiệu quả.
 - Giảm tải công việc thủ công và tăng độ chính xác dữ liệu thông qua theo dõi thời gian thực (real-time tracking).
 
 ## 3. Phân Tích Yêu Cầu 
 ### Yêu Cầu Chức Năng  
 
-| Người Dùng (Readers)                                   | Nhân Viên (Staff)                                    |
+| Người dùng (Readers)                                   | Nhân Viên (Staff)                                    |
 |------------------------------------------------|----------------------------------------------|
 |Đăng ký, đăng nhập và quản lý tài khoản cá nhân.|Quản lý sách và nhà xuất bản (thêm/sửa/xóa).|
 |Tìm kiếm sách, xem chi tiết, mượn và trả sách.| Duyệt hoặc từ chối yêu cầu mượn sách.|
@@ -89,5 +89,4 @@ flowchart TD
 Phân tích yêu cầu nghiệp vụ, mô hình hóa UML (Use Case, Class Diagram), mô hình quy trình, thiết kế wireframe, đánh giá UX và viết tài liệu hệ thống.
 
 ## 8. Phản Hồi và Tự Đánh Giá  
-Thông qua dự án này, tôi rèn luyện kỹ năng phân tích nhu cầu kinh doanh, mô hình hóa quy trình làm việc, và chuyển đổi yêu cầu nghiệp vụ thành giải pháp kỹ thuật tiềm năng.
-Dự án giúp củng cố năng lực của tôi trong vai trò Business Analyst Intern, đặc biệt trong việc kết nối giữa người dùng, nghiệp vụ và nhóm phát triển.
+Thông qua dự án này, tôi rèn luyện kỹ năng phân tích nhu cầu kinh doanh, mô hình hóa quy trình làm việc, và chuyển đổi yêu cầu nghiệp vụ thành giải pháp kỹ thuật tiềm năng, kết nối giữa người dùng, nghiệp vụ và nhóm phát triển.
