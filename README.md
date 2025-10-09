@@ -68,7 +68,6 @@ flowchart TD
 
 ```
 - <b> Wireframes: </b> Thiết kế giao diện mẫu cho cổng người dùng và nhân viên.
-![UI](https://github.com/lthnhuw/Library-Borrowing-Management-System/blob/main/trangchu.png)  
 
 ## 5. Kết Quả Chính  
 - Biểu đồ Use Case có các chức năng: Đăng ký, Đăng nhập, Mượn/Trả, Quản lý.
